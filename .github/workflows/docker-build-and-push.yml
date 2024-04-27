@@ -19,7 +19,3 @@ jobs:
   
   - name: Build and push Docker Image
     uses: docker/build-push-action@v4
-    with:
-     context: DockerFile/
-     push: true
-     tags: toomasch/githubactionpushed:latest
