@@ -8,7 +8,7 @@ RUN mkdir /home/shiny-app
 # RUN R -e "install.packages(c('dplyr', 'ggplot2', 'gapminder'))"
 
 # Copy the Shiny app code
-COPY app.R /home/shiny-app/app.R
+COPY ./001-hello/app.R /home/shiny-app/app.R
 
 # Expose the application port
 EXPOSE 8180
