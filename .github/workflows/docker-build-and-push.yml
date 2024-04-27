@@ -1,0 +1,27 @@
+name: Build and Push Docker image to DockerHub
+
+on:
+	push:
+		branches: [ "main" ]
+	schedule:
+ 		- cron: "00 19 * * 6"
+
+jobs:
+	build_and_push_to_dockerhub:
+		runs-on: ubuntu-latest
+		steps:
+			- name: Checkout
+				uses: actions/checkout@v2
+
+			- name: Login to DockerHub
+				uses: docker/login-action@v2e
+				with:
+					username: ${{ secrets.DOCKERHUB_USERNAME }}
+					password: ${{ secrets.DOCKERHUB_TOKEN }}
+				
+			- name: Build and push Docker image
+				uses: docker/build-push-action@v4
+				with:
+					context: DockerFile/
+					push: true
+					tags: toomasch/githubactionpushed:latest		
