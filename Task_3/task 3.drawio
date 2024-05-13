@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" modified="2024-05-13T08:33:16.579Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="uCnMXwe6tG9huzltJ_c0" version="24.4.0" type="device">
+  <diagram name="Page-1" id="TPPXZ78H2cHYJvP5xsI_">
+    <mxGraphModel dx="1018" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WAaLvcebSka8-u2p9-O3-1" value="GitHub" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="230" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-2" value="Engineer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-3" value="Cloud Build" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-4" value="Artifact Registry" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-5" value="Cloud Run" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-12" value="- Catch trigger&lt;div&gt;- Build image&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="360" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAaLvcebSka8-u2p9-O3-3" target="WAaLvcebSka8-u2p9-O3-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="370" as="sourcePoint" />
+            <mxPoint x="530" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAaLvcebSka8-u2p9-O3-3" target="WAaLvcebSka8-u2p9-O3-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="370" as="sourcePoint" />
+            <mxPoint x="530" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAaLvcebSka8-u2p9-O3-1" target="WAaLvcebSka8-u2p9-O3-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="370" as="sourcePoint" />
+            <mxPoint x="360" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAaLvcebSka8-u2p9-O3-2" target="WAaLvcebSka8-u2p9-O3-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="370" as="sourcePoint" />
+            <mxPoint x="530" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-17" value="Push" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-19" value="Hook" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-21" value="Push" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-22" value="Deploy" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAaLvcebSka8-u2p9-O3-4" target="WAaLvcebSka8-u2p9-O3-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="370" as="sourcePoint" />
+            <mxPoint x="530" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-24" value="Pull" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-25" value="Requirements:&lt;div&gt;- Create a Google Cloud project&lt;/div&gt;&lt;div&gt;- Enable Cloud Build, Artifact Registry and Cloud Run API&#39;s (you might need to enable other API&#39;s to do so)&lt;div&gt;- Create Docker image&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- Create cloudbuild.yaml file&lt;/div&gt;- Link GitHub repository with Cloud Build&lt;div&gt;- Create Build trigger&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-26" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-27" value="2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="310" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-28" value="3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-29" value="4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-30" value="5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="290" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-32" value="GitHub:&lt;div&gt;- Used for version control&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="490" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-33" value="Cloud Build:&lt;div&gt;- Used to listen for triggers, build and push Docker image&lt;/div&gt;&lt;div&gt;- Linked to GitHub, can be configured to be triggered on push on specific branches&lt;/div&gt;&lt;div&gt;- Requires a cloudbuild.yaml file where the required steps are described&lt;/div&gt;&lt;div&gt;- In this case, it will listen for pushes on main/master branch and cloudbuild.yaml will describe two main steps: Docker build and Docker push. When build is done, it will notify Cloud Run to update its image to the latest Docker image in Registry&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="520" width="390" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-34" value="Artifact Registry:&lt;div&gt;- Will be used as a registry to store the build artifacts&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="490" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAaLvcebSka8-u2p9-O3-35" value="Cloud Run:&lt;div&gt;- Will be used as the managed compute platform to run the app&lt;/div&gt;&lt;div&gt;- Will be using Docker images stored in the Registry&lt;/div&gt;&lt;div&gt;- When&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="570" width="320" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
